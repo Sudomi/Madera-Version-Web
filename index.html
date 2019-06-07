@@ -1,27 +1,27 @@
 <!DOCTYPE HTML>
 <html>
-		<head>
-		
-		<!-- MétaTag Necessaire-->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<head>
+
+	<!-- MétaTag Necessaire-->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-		<title>Portail Commerciaux . MADERA</title>
+	<title>Portail Commerciaux</title>
 
-		<!-- Notre CSS -->
-		<link rel="stylesheet" href="style.css">
+	<!-- Notre CSS -->
+	<link rel="stylesheet" href="style.css">
 
 <!-- Dépendance de Bootstrap-->
-		<!-- Bootstrap CSS CDN -->
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    	<!-- Dépendance jQuery -->
-    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    	<!-- Dépendance Popper.js -->
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
-    	<!-- Bootstrap JS CDN -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<!-- Dépendance jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Dépendance Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+	<!-- Bootstrap JS CDN -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- FIN Dépendance de Bootstrap-->
 
 	</head>
@@ -31,40 +31,128 @@
 			<!-- <div class="row">
 
 				<div class="col-12"> -->
+			<!-- Début Barre de Nav -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			  <a class="navbar-brand" href="#">MADERA</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
 
-			<nav class="navbar navbar-light bg-light">
-	            <!-- <div class="container-fluid"> -->
-	            
-	            <div class="navbar-nav-scroll">
-	            <ul navbar-nav bd-navbar-nav flex-row>
-	            	<li class="nav-item">
-	            	<a class="navbar-brand" href="#">MADERA</a>	
-	            	</li>
-	            	<li class="nav-item">
-	            		<a class="nav-link active" href="#">Gestionnaire de devis</a>
-	            	</li>
-	            	
-	            
-		            <li class="nav-item">
-		            <a class="nav-item nav-link" href="#">Facturation</a>
-		        	</li>
-
-		            <li class="nav-item">
-		            <a class="nav-item nav-link" href="#">Client</a>
-		            </li>
-
-	            </ul>
-	            </div>
-            </nav>
-
-
-					<!-- <h1> Madera ALLO ! ???</h1> -->
-				    
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#"> Gestionnaire de devis <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Facturation</a>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Client
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#">Crée</a>
+			          <a class="dropdown-item" href="#">consulter</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">supprimer</a>
+			        </div>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Nom du Client ou Devis" aria-label="Search">
+			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+			    </form>
+			  </div>
+			</nav>
+			<!-- Fin Barre de Nav -->
 		</div>
+
+		<div class="container-fluid">
+		<div class="row">
+			<!-- Début Formulaire --> 
+			<section class="col-10 col-md-12">
+               <form action="">
+                   <h1 class="h3">Formulaire de devis</h1>
+                   <fieldset>
+                   	<!-- breadCrumb = Fil d'Arianne ici dans une liste -->
+                   	<!-- TODO : Peux-être à placer en-dehors du formulaire ? ^^ --> 
+                    <ol class="breadcrumb">
+                   		<li class="breadcrumb-item"><a href="#">Portail Commerciaux</a></li>
+                   		<li class="breadcrumb-item active">Gestionnaire de Devis</li>
+               		</ol>
+
+               			<!-- Début Choix Matériaux -->
+                       <div class="form-group">
+                           <label for="fMateriaux">Matière principal de la maison modulaire</label>
+                           <select name="materiaux" id="materiaux" class="form-control">
+                               <option value="0">--Choisissez votre type de matériaux--</option>
+                               <option value="PAILLE">Paille</option>
+                               <option value="PVC">PVC</option>
+                               <option value="BOIS">Bois</option>
+                               <option value="METAL">Métal</option>
+                               <option value="BRIQUE">Brique</option>
+                           </select>
+                       </div>
+                       <!-- FIN Choix Superficie -->
+
+                       <!-- Début Choix Superficie -->
+                       <div class="form-group">
+                           <label for="fSuperficie">Superficie de la maison modulaire</label>
+                           <select name="superficie" id="superficie" class="form-control">
+                               <option value="0">--Choisissez parmis les différentes dimension disponible--</option>
+                               <option value="TP">Très petite 30m²</option>
+                               <option value="P">Petite 45m²</option>
+                               <option value="M"> Médium 65m²</option>
+                               <option value="G">Grande 85m²</option>
+                               <option value="TG">Très Grande 100m²</option>
+                           </select>
+                       </div>
+                       <!-- Fin Choix Superficie -->
+
+
+                       <!-- Début Choix Extension de Garantie -->
+                       <div class="form-group">
+                           <label for="fGarantie">De base la maison est garantie 5 ans*, si vous désirez une extension c'est par ici</label>
+                           <select name="garantie" id="garantie" class="form-control">
+                               <option value="0">--Choix d'extension de garantie--</option>
+                               <option value="1">1 année supplémentaire</option>
+                               <option value="3">3 ans</option>
+                               <option value="5">5 ans</option>
+                               <option value="10">une décénie</option>
+                               <option value="20">2 Décénie</option>
+                           </select>
+                       </div>
+                       <!-- FIN Choix Extension de Garantie -->
+
+
+                        <!--Début Personnalisation de la devanture-->
+                       <div class="form-group">
+                           <label for="fDevanture">Si vous désirez inscrire quelques mot sur la devanture de votre habitation</label>
+                           <input type="text" name="fDevanture" id="fDevanture" class="form-control" placeholder="Les maisons modulaires MADERA sont HYPE :)  " />
+                       </div>
+                       <!--FIN Personnalisation de la devanture-->
+
+                       <!--Début lieu de la Maison-->
+                       <div class="form-group">
+                           <textarea name="Implantation" id="Implantation" rows="10" class="form-control" placeholder="Merci de précissez le lieux d'implantation de la structure afin de vous proposer un devis supplémentaire, si nous vous la livrons, au lieux de venir la chercher sur place"></textarea>
+                       </div>
+                       <!--FIN lieu de la Maison-->
+                   </fieldset>
+                   <!--Submit-->
+                   <button type="submit" class="btn btn-primary" onmouseover="Roullement de tamboure">Estimez !</button>
+               </form>
+               
+           </section><!--Fin du formulaire-->
+
+		</div><!--Fin de la Row-->
+
+		</div><!--Fin du contenaire fluide-->
 <!-- 
 			</div>
 
 		</div> -->
 	</body>
-
-	</html>
+</html>
